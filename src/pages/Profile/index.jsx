@@ -10,7 +10,7 @@ const Profile = () => {
     }
   });
 
-  return <div>Profileasdasdasd</div>;
+  return <div>Some text profile</div>;
 };
 
 export default Profile;
