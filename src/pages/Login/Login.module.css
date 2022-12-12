@@ -1,0 +1,87 @@
+.login {
+  padding: 15px;
+  width: 400px;
+  min-height: 400px;
+  margin: 2% auto 0 auto;
+  background-color: white;
+}
+.login .heading {
+  text-align: center;
+  margin-top: 1%;
+}
+.login h2 {
+  font-size: 3em;
+  font-weight: 300;
+  color: rgba(108, 108, 108, 0.7);
+  display: inline-block;
+  text-shadow: 1px 1px 3px gray;
+}
+.input_group {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 20px;
+}
+span {
+  background: transparent;
+  min-width: 53px;
+  border: none;
+}
+
+i {
+  font-size: 1.5em;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.form_control {
+  display: block;
+  width: auto;
+  height: auto;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background: none;
+  border-radius: 0px;
+
+  padding: 10px;
+  font-size: 1.6em;
+  width: 100%;
+  background: transparent;
+  color: lighten(#ab9e95, 10%);
+  border: 1px solid rgb(94, 93, 93);
+}
+
+button {
+  margin-top: 20px;
+  background: rgb(30, 30, 110);
+  border: none;
+  font-size: 1.6em;
+  font-weight: 300;
+  padding: 5px 0;
+  width: 100%;
+  border-radius: 3px;
+  color: rgb(233, 230, 230);
+  border-bottom: 4px solid darken(#27ae60, 10%);
+}
+button:hover {
+  background: tint(#27ae60, 4%);
+  -webkit-animation: hop 1s;
+  animation: hop 1s;
+}
+
+.float {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.float:hover,
+.float:focus,
+.float:active {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
